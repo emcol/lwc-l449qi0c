@@ -1,9 +1,5 @@
-import { LightningElement, api } from "lwc";
-
-/**
- * Show an item
- */
-export default class Child extends LightningElement {
-  @api
-  label = "";
+// bike.js
+import { LightningElement, api } from 'lwc';
+export default class Bike extends LightningElement {
+    @api bike;
 }
